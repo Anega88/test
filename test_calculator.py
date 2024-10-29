@@ -5,7 +5,6 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from Calculator import CalculatorPage
 
-
 @allure.id("Calculator")
 @allure.epic("калькулятор")
 @allure.severity("blocker")
